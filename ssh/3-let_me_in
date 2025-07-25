@@ -4,6 +4,6 @@
 ssh -i ~/.ssh/school ubuntu@107.21.169.131 bash -c "'
 mkdir -p ~/.ssh && \
 chmod 700 ~/.ssh && \
-echo \"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCw3GmZHa2MHEKcmarGWAtrDqzSlxiJWDpdsFA1pYyZwZiw+DXsFCjImMGJdC52dDy+5dlZ/qwVt/x62YbkeWF3vEkFQFdWLE/PQZDJns7Jm+0Sx5tLpJBKJGvmpGyvcSoyMdCeN0LKO8QjCAZuuT4u8goe1Yf6TbjMZQ09bUPbhlagb+lmbYXvT1m/PZNU8O+2Qc92P06puTIABmrBNq6qnpNTbO7wBD0Udwiwxm5zvAGPQqHge3YVnRz7n5hzLKi3pmq11ijMJgYzWXxE6O6QsUuqqy9f/2OQtV5AVCSJZ7BVrfmnMyax1SYKPCRs33cmL45l8pQiyUw2ACnnXUf73VadllW3G2F3MiVAOPCUygWfW7FwDAh1IL+ZEjFiV6LgvBXhcQl5yRvgu0pI7pzhAbUAJtSZVBSRm7L+u7FBfAccG8ozgUOtOnTBbyZbEoV5N8rmsijF9z+87Z2pHjMwEPswF+j4Iyb5QQmSMugBSLVRdk56jBmkzPeq47uIIbM\" >> ~/.ssh/authorized_keys && \
+echo \"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNdtrNGtTXe5Tp1EJQop8mOSAuRGLjJ6DW4PqX4wId/Kawz35ESampIqHSOTJmbQ8UlxdJuk0gAXKk3Ncle4safGYqM/VeDK3LN5iAJxf4kcaxNtS3eVxWBE5iF3FbIjOqwxw5Lf5sRa5yXxA8HfWidhbIG5TqKL922hPgsCGABIrXRlfZYeC0FEuPWdr6smOElSVvIXthRWp9cr685KdCI+COxlj1RdVsvIo+zunmLACF9PYdjB2s96Fn0ocD3c5SGLvDOFCyvDojSAOyE70ebIElnskKsDTGwfT4P6jh9OBzTyQEIS2jOaE5RQq4IB4DsMhvbjDSQrP0MdCLgwkN\" >> ~/.ssh/authorized_keys && \
 chmod 600 ~/.ssh/authorized_keys
 '"
