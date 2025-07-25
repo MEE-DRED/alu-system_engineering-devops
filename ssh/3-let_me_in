@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Script to add the given SSH public key to the ubuntu user's authorized_keys on the server
+
+ssh -i ~/.ssh/school ubuntu@107.21.169.131 bash -c "'
+mkdir -p ~/.ssh && \
+chmod 700 ~/.ssh && \
+echo \"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCw3GmZHa2MHEKcmarGWAtrDqzSlxiJWDpdsFA1pYyZwZiw+DXsFCjImMGJdC52dDy+5dlZ/qwVt/x62YbkeWF3vEkFQFdWLE/PQZDJns7Jm+0Sx5tLpJBKJGvmpGyvcSoyMdCeN0LKO8QjCAZuuT4u8goe1Yf6TbjMZQ09bUPbhlagb+lmbYXvT1m/PZNU8O+2Qc92P06puTIABmrBNq6qnpNTbO7wBD0Udwiwxm5zvAGPQqHge3YVnRz7n5hzLKi3pmq11ijMJgYzWXxE6O6QsUuqqy9f/2OQtV5AVCSJZ7BVrfmnMyax1SYKPCRs33cmL45l8pQiyUw2ACnnXUf73VadllW3G2F3MiVAOPCUygWfW7FwDAh1IL+ZEjFiV6LgvBXhcQl5yRvgu0pI7pzhAbUAJtSZVBSRm7L+u7FBfAccG8ozgUOtOnTBbyZbEoV5N8rmsijF9z+87Z2pHjMwEPswF+j4Iyb5QQmSMugBSLVRdk56jBmkzPeq47uIIbM\" >> ~/.ssh/authorized_keys && \
+chmod 600 ~/.ssh/authorized_keys
+'"
